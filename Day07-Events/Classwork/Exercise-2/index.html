@@ -1,0 +1,31 @@
+<!-- Form Events: onchange, onfocus, onblur -->
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Form Events: onchange, onfocus, onblur</title>
+ </head>
+ <body>
+    <h1>Form Events: onchange, onfocus, onblur</h1>
+    <p>this keyword, setAttribute() method.</p>
+    <form action="">
+        <div>
+            <input type="text" onblur="handleBlur(this)" onfocus="handleFocus(this)" placeholder="Enter your name" id="name1">
+        </div>
+        <div>
+            <select name="" id="colorSelect" onchange="changedColor(this.value)">
+                <option value="red">Red</option>
+                <option value="yellow">Yellow</option>
+                <option value="orange">Orange</option>
+                <option value="blue">Blue</option>
+            </select>
+            <div id="box" class="box1"></div>
+        </div>
+       
+    </form>
+
+    <script src="./js/script.js"></script>
+ </body>
+ </html>

@@ -1,0 +1,10 @@
+section{
+    border-bottom:2px dashed black;
+    padding: 20px;
+}
+#box{
+    background-color: brown;
+    height: 250px;
+    width: 250px;
+    margin: 20px auto;
+}
